@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.cabecalho{
+    background-color:#ad77e0;
+    height:103px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+}
+
+.list-menu li>a {
+    color: #ffff;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.perfil{
+    background-color: #f2e3f5;
+    height: 579px;
+    text-align: center;
+}
+
+.titulo-apresentacao{
+color: #ad77e0;
+}
+
+.titulo-subapresentacao{
+    color: #c297eb;
+}
+
+.foto-perfil{
+    width: 150px; 
+    height: 180px;
+    margin-top: 48px;
+    margin-bottom: 26px;
+}
+
+.minha-descricao{
+    font-size: 16px;
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+}
+
+.conteiner{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 750px;
+    
+}
+
+.artigo-formacao{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+   
+
+}
+
+.titulo-sessao{
+    font-size: 24px;
+    color: #ad77e0;
+    margin-bottom: 50px;
+}
+
+.lista-formacao{
+    padding-left: 32px;
+}
+
+.tituloformacao{
+    font-size: 16px;
+    color: #ad77e0;
+    font-weight: 700px;
+}
+
+.linkformacao{
+    color: #4340e9;
+    font-size: 14px;
+}
+
+.descricaoformacao{
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 53px;
+    color: #000;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    background-color: #ad77e0;
+    height: 198px;
+}
+
+.listarodape li{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 28px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.conteiner-rodape{
+    margin-left: 60px;
+}
+
+.fa-square-envelope{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.fa-linkedin{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.fa-github{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
